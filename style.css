@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+
+
+/* font-family: 'Montserrat', sans-serif;*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+
+.side-bar {
+    width: 223px;
+    height: auto;
+
+}
+
+section.info {
+    height: 340px;
+    text-align: center;
+    background-color: #FFFFFF
+}
+
+.logo {
+    padding-top: 70px;
+    font-size: 27px;
+    font-weight: 600;
+}
+
+.userimg {
+    padding-top: 15%;
+    padding-bottom: 5%;
+}
+
+.userimg img {
+
+    border-radius: 50%;
+
+}
+
+.green {
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    margin-left: 110px;
+    background-color: aquamarine;
+}
+
+.user p {
+    padding-top: 3%;
+    font-size: 12px;
+    color: #a5a5a5;
+}
+
+#role {
+    color: #3187C6;
+}
+
+.info .anchor {
+    padding-top: 12%;
+}
+
+.info a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    color: #3187C6;
+}
+
+.menu {
+
+    border-top: 2px solid #f1f1f2e8;
+    padding-bottom: 5%;
+}
+
+.side-bar ul {
+    margin-left: 20%;
+    padding-top: 10%;
+}
+
+.side-bar ul li {
+    font-size: 12px;
+    list-style: none;
+    padding: 8%;
+
+
+
+}
+
+.menu li:first-child {
+    border-left: 2px solid #3187C6;
+}
+
+.adminmenu {
+    background-color: #F1F1F2;
+    padding-bottom: 10%;
+
+}
+
+.adminmenu li:first-child {
+    font-weight: 600;
+}
+
+.search {
+    padding-top: 60%;
+
+}
+
+.search input {
+    width: 75%;
+    height: 38px;
+    margin-left: 25px;
+    border: 2px solid #a5a5a5;
+    border-radius: 20px;
+
+}
+
+.search p {
+    text-align: center;
+}
+
+
+/* MY IDEAS */
+
+main {
+    width: 100%;
+    background-color: #F1F1F2;
+}
+
+.copyright {
+    margin-left: 120px;
+    padding: 15px;
+    font-size: 14px;
+
+}
+
+.idea {
+
+    margin: 80px;
+    margin-top: 6%;
+
+
+}
+
+.idea h2 {
+    text-align: left;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #d4d4d4;
+
+}
+
+.ideas-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ideas-list article {
+    width: 100%;
+    height: auto;
+    margin: 2px;
+}
+
+.ideas-list article h3 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.ideas-list article div {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    margin-bottom: 15px;
+    padding: 18px;
+}
+
+.ideas-list p {
+    color: #3187C6;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.ideas-list p.date {
+    font-weight: 400;
+    font-size: 12px;
+}
