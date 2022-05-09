@@ -260,3 +260,142 @@ main {
     background-color: #3187C6;
 
 }
+
+
+/* MEDIA QUERYS */
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    section.info {
+        height: 250px;
+    }
+
+
+    .logo {
+        padding-top: 40px;
+        font-size: 20px;
+    }
+
+    .logo span {
+        font-size: 16px;
+
+    }
+
+
+
+
+    .green {
+
+        margin-left: 95px;
+        margin-top: -16px;
+
+    }
+
+    /* MY IDEAS */
+
+
+
+    .copyright {
+        margin-left: 20px;
+        color: #a5a5a5;
+        font-size: 12px;
+
+    }
+
+
+
+
+    .ideas-list {
+        display: block;
+        justify-content: space-between;
+    }
+
+    .ideas-list article {
+        width: 100%;
+        height: auto;
+        margin: 2px;
+        margin-right: 20px;
+    }
+
+    .ideas-list article h3 {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        color: #808080;
+
+    }
+
+    .ideas-list article div {
+        display: flex;
+        justify-content: space-between;
+        background-color: white;
+        margin-bottom: 15px;
+        padding: 18px;
+    }
+
+    .ideas-list article img {
+        width: 20px;
+        height: 15px;
+
+    }
+
+    .ideas-list p {
+        color: #3187C6;
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    .ideas-list p.date {
+        font-weight: 400;
+        font-size: 12px;
+    }
+
+    /* Notification */
+
+    .notification {
+        display: flex;
+        position: fixed;
+        bottom: 0px;
+        right: 0px;
+
+    }
+
+    .bottom {
+        display: flex;
+        justify-content: space-evenly;
+        height: 50px;
+        width: 180px;
+        margin: 1px;
+        text-align: center;
+        padding: 16px;
+        color: #3187C6;
+        font-size: 14px;
+        font-weight: 700;
+        background-color: #FFFFFF;
+        border: none;
+
+    }
+
+    .bottom img {
+        width: 18px;
+        height: 18px;
+        padding-top: 8px;
+
+    }
+
+    .bottom a {
+        text-decoration: none;
+        padding-top: 5px;
+    }
+
+    #circle {
+        height: 30px;
+        width: 30px;
+        color: #F1F1F2;
+        padding-top: 5px;
+        font-size: 16px;
+        border-radius: 50px;
+        background-color: #3187C6;
+
+    }
+
+}
