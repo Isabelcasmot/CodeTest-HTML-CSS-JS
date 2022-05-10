@@ -16,26 +16,31 @@
 
 }
 
+/* NAVBAR*/
+
+
 .side-bar {
-    width: 223px;
+    width: 12.800rem;
     height: auto;
 
 }
 
 section.info {
-    height: 340px;
+    height: 21.25em;
     text-align: center;
     background-color: #FFFFFF
 }
 
 .logo {
     padding-top: 70px;
-    font-size: 27px;
+    font-size: 1.688em;
     font-weight: 600;
+
+
 }
 
 .logo span {
-    font-size: 18px;
+    font-size: 0.6em;
 
 }
 
@@ -51,11 +56,11 @@ section.info {
 }
 
 .green {
-    height: 12px;
-    width: 12px;
+    height: 0.75em;
+    width: 0.75em;
     border-radius: 50%;
-    margin-left: 110px;
-    margin-top: -16px;
+    margin-left: 6.25em;
+    margin-top: -1em;
     background-color: aquamarine;
     z-index: 10;
     position: relative;
@@ -63,7 +68,7 @@ section.info {
 
 .user p {
     padding-top: 3%;
-    font-size: 12px;
+    font-size: 0.75em;
     color: #a5a5a5;
 }
 
@@ -75,12 +80,18 @@ section.info {
     padding-top: 12%;
 }
 
+.anchor img {
+    margin-left: 10px;
+}
+
 .info a {
     text-decoration: none;
-    font-size: 14px;
+    font-size: 0.875em;
     font-weight: 700;
     color: #3187C6;
 }
+
+
 
 .menu {
 
@@ -94,12 +105,14 @@ section.info {
 }
 
 .side-bar ul li {
-    font-size: 12px;
+    font-size: 0.600em;
     list-style: none;
     padding: 8%;
 
+}
 
-
+.side-bar ul li img {
+    margin-left: 50%;
 }
 
 .menu li:first-child {
@@ -137,6 +150,9 @@ section.info {
     text-align: center;
     padding-left: 20px;
 }
+
+/*NAVBAR END*/
+
 
 
 /* MY IDEAS */
@@ -188,11 +204,6 @@ main {
 
 }
 
-.ideas-list .openIdeas {
-    display: block;
-    background-color: #F1F1F2;
-    padding: 0px;
-}
 
 
 
@@ -204,6 +215,24 @@ main {
     padding: 18px;
 }
 
+.ideas-list .openIdeas {
+    display: block;
+    background-color: #F1F1F2;
+    padding: 0px;
+}
+
+.ideas-list .review {
+    display: block;
+    background-color: #F1F1F2;
+    padding: 1px;
+}
+
+.ideas-list .accepted {
+    display: block;
+    background-color: #F1F1F2;
+    padding: 0px;
+}
+
 
 .ideas-list article img {
     width: 20px;
@@ -213,14 +242,16 @@ main {
 
 .ideas-list p {
     color: #3187C6;
-    font-size: 14px;
+    font-size: 0.700em;
     font-weight: 700;
 }
 
 .ideas-list p.date {
     font-weight: 400;
-    font-size: 12px;
+    font-size: 0.60em;
+    font-weight: 500;
 }
+
 
 /* Notification */
 
