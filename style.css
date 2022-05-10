@@ -156,7 +156,7 @@ main {
 .idea {
 
     margin: 80px;
-    margin-top: 6%;
+    margin-top: 5%;
 
 
 }
@@ -188,6 +188,14 @@ main {
 
 }
 
+.ideas-list .openIdeas {
+    display: block;
+    background-color: #F1F1F2;
+    padding: 0px;
+}
+
+
+
 .ideas-list article div {
     display: flex;
     justify-content: space-between;
@@ -195,6 +203,7 @@ main {
     margin-bottom: 15px;
     padding: 18px;
 }
+
 
 .ideas-list article img {
     width: 20px;
