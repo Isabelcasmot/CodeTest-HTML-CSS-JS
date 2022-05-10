@@ -20,7 +20,7 @@
 
 
 .side-bar {
-    width: 12.800rem;
+    width: 14rem;
     height: auto;
 
 }
@@ -50,16 +50,16 @@ section.info {
 }
 
 .userimg img {
-
+    width: 40px;
     border-radius: 50%;
 
 }
 
 .green {
-    height: 0.75em;
-    width: 0.75em;
+    height: 0.85em;
+    width: 0.85em;
     border-radius: 50%;
-    margin-left: 6.25em;
+    margin-left: 6.5em;
     margin-top: -1em;
     background-color: aquamarine;
     z-index: 10;
@@ -105,7 +105,7 @@ section.info {
 }
 
 .side-bar ul li {
-    font-size: 0.600em;
+    font-size: 0.700em;
     list-style: none;
     padding: 8%;
 
@@ -166,6 +166,8 @@ main {
     margin-left: 120px;
     padding: 15px;
     font-size: 14px;
+    color: #838383;
+
 
 }
 
@@ -305,6 +307,8 @@ main {
 
 /* MEDIA QUERYS */
 
+/*Mobile Phone*/
+
 @media (min-width: 412px) and (max-width: 575px) {
 
 
@@ -331,6 +335,7 @@ main {
     section.info {
         width: 100%;
         height: 420px;
+        margin-bottom: 20px;
         text-align: center;
 
     }
@@ -358,11 +363,11 @@ main {
     }
 
     .green {
-        height: 25px;
-        width: 25px;
+        height: 38px;
+        width: 38px;
         border-radius: 50%;
-        margin-left: 240px;
-        margin-top: -30px;
+        margin-left: 230px;
+        margin-top: -40px;
         background-color: aquamarine;
         z-index: 10;
         position: relative;
@@ -437,9 +442,18 @@ main {
         text-align: center;
     }
 
+    /*IDEAS*/
+
+    .idea {
+
+        margin: 20px;
+        margin-top: 5%;
+        padding-bottom: 50px;
+    }
+
     .ideas-list {
         display: block;
-        justify-content: space-between;
+
     }
 
     .ideas-list article {
@@ -456,25 +470,15 @@ main {
 
     }
 
-    .ideas-list article div {
-        display: flex;
-        justify-content: space-between;
-        background-color: white;
-        margin-bottom: 15px;
-        padding: 18px;
-    }
+
 
     .ideas-list article img {
-        width: 20px;
+        width: 15px;
         height: 15px;
 
     }
 
-    .ideas-list p {
-        color: #3187C6;
-        font-size: 14px;
-        font-weight: 700;
-    }
+
 
     .ideas-list p.date {
         font-weight: 400;
@@ -535,6 +539,9 @@ main {
 
 }
 
+
+/*Tablet*/
+
 @media (min-width: 576px) and (max-width: 777px) {
 
     section.info {
@@ -556,9 +563,11 @@ main {
 
 
     .green {
-
-        margin-left: 95px;
-        margin-top: -16px;
+        height: 0.85em;
+        width: 0.85em;
+        border-radius: 50%;
+        margin-left: 5.6em;
+        margin-top: -1em;
 
     }
 
@@ -574,6 +583,13 @@ main {
     }
 
 
+
+    .idea {
+
+        margin: 20px;
+        margin-top: 5%;
+        padding-bottom: 50px;
+    }
 
 
     .ideas-list {
@@ -609,11 +625,6 @@ main {
 
     }
 
-    .ideas-list p {
-        color: #3187C6;
-        font-size: 14px;
-        font-weight: 700;
-    }
 
     .ideas-list p.date {
         font-weight: 400;
