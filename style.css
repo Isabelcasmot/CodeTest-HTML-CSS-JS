@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
 
 
-/* font-family: 'Montserrat', sans-serif;*/
-
 * {
     margin: 0;
     padding: 0;
@@ -12,17 +10,14 @@
 .wrapper {
     display: flex;
     font-family: 'Montserrat', sans-serif;
-
-
 }
 
-/* NAVBAR*/
 
+/* NAVBAR*/
 
 .side-bar {
     width: 14rem;
     height: auto;
-
 }
 
 section.info {
@@ -35,13 +30,10 @@ section.info {
     padding-top: 70px;
     font-size: 1.688em;
     font-weight: 600;
-
-
 }
 
 .logo span {
     font-size: 0.6em;
-
 }
 
 .userimg {
@@ -52,15 +44,14 @@ section.info {
 .userimg img {
     width: 40px;
     border-radius: 50%;
-
 }
 
 .green {
     height: 0.85em;
     width: 0.85em;
-    border-radius: 50%;
     margin-left: 6.5em;
     margin-top: -1em;
+    border-radius: 50%;
     background-color: aquamarine;
     z-index: 10;
     position: relative;
@@ -91,8 +82,6 @@ section.info {
     color: #3187C6;
 }
 
-
-
 .menu {
 
     border-top: 2px solid #f1f1f2e8;
@@ -108,7 +97,6 @@ section.info {
     font-size: 0.700em;
     list-style: none;
     padding: 8%;
-
 }
 
 .side-bar ul li img {
@@ -122,7 +110,6 @@ section.info {
 .adminmenu {
     background-color: #F1F1F2;
     padding-bottom: 10%;
-
 }
 
 .adminmenu li:first-child {
@@ -132,7 +119,6 @@ section.info {
 .search {
     padding-top: 60%;
     padding-bottom: 35%;
-
 }
 
 .search input {
@@ -143,8 +129,6 @@ section.info {
     border-radius: 20px;
     background: url('./images/search_icon.svg') no-repeat 9px center;
 }
-
-
 
 .search p {
     text-align: center;
@@ -167,16 +151,11 @@ main {
     padding: 15px;
     font-size: 14px;
     color: #838383;
-
-
 }
 
 .idea {
-
     margin: 80px;
     margin-top: 5%;
-
-
 }
 
 .idea h2 {
@@ -184,7 +163,6 @@ main {
     padding-bottom: 30px;
     color: #808080;
     border-bottom: 2px solid #d4d4d4;
-
 }
 
 .ideas-list {
@@ -203,11 +181,7 @@ main {
     padding-top: 30px;
     padding-bottom: 30px;
     color: #808080;
-
 }
-
-
-
 
 .ideas-list article div {
     display: flex;
@@ -235,7 +209,6 @@ main {
     padding: 0px;
 }
 
-
 .ideas-list article img {
     width: 20px;
     height: 15px;
@@ -255,14 +228,15 @@ main {
 }
 
 
+
 /* Notification */
+
 
 .notification {
     display: flex;
     position: fixed;
     bottom: 0px;
     right: 0px;
-
 }
 
 .bottom {
@@ -274,18 +248,16 @@ main {
     text-align: center;
     padding: 16px;
     color: #3187C6;
-    font-size: 14px;
+    font-size: 0.700em;
     font-weight: 700;
     background-color: #FFFFFF;
     border: none;
-
 }
 
 .bottom img {
     width: 18px;
     height: 18px;
     padding-top: 8px;
-
 }
 
 .bottom a {
@@ -294,18 +266,20 @@ main {
 }
 
 #circle {
-    height: 30px;
-    width: 30px;
+    height: 28px;
+    width: 28px;
     color: #F1F1F2;
     padding-top: 5px;
-    font-size: 16px;
+    font-size: 12px;
     border-radius: 50px;
     background-color: #3187C6;
 
 }
 
 
+
 /* MEDIA QUERYS */
+
 
 /*Mobile Phone*/
 
@@ -316,7 +290,6 @@ main {
         margin-left: 20px;
         color: #a5a5a5;
         font-size: 9px;
-
     }
 
     .wrapper {
@@ -329,7 +302,6 @@ main {
         width: 100%;
         display: flex;
         flex-wrap: wrap;
-
     }
 
     section.info {
@@ -337,18 +309,15 @@ main {
         height: 420px;
         margin-bottom: 20px;
         text-align: center;
-
     }
 
     .logo {
         padding-top: 30px;
         font-size: 35px;
-
     }
 
     .logo span {
         font-size: 22px;
-
     }
 
     .userimg {
@@ -359,7 +328,6 @@ main {
     .userimg img {
         width: 150px;
         height: 150px;
-
     }
 
     .green {
@@ -383,10 +351,8 @@ main {
         color: #3187C6;
     }
 
-
     .info a {
         font-size: 18px;
-
     }
 
     .menu {
@@ -395,12 +361,8 @@ main {
         padding-bottom: 5%;
     }
 
-
     .side-bar ul li {
         font-size: 16px;
-
-
-
     }
 
     .side-bar .search ul li {
@@ -414,38 +376,33 @@ main {
         width: 50%;
         background-color: #F1F1F2;
         padding-bottom: 10%;
-
     }
 
     .adminmenu li:first-child {
         font-weight: 600;
     }
 
-
-
-
     .search {
         width: 100%;
         padding-top: 10%;
         padding-bottom: 5%;
-
     }
 
     .search input {
         width: 90%;
         height: 38px;
         margin-left: 25px;
-
     }
 
     .search p {
         text-align: center;
     }
 
+
+
     /*IDEAS*/
 
     .idea {
-
         margin: 20px;
         margin-top: 5%;
         padding-bottom: 50px;
@@ -453,7 +410,6 @@ main {
 
     .ideas-list {
         display: block;
-
     }
 
     .ideas-list article {
@@ -467,77 +423,19 @@ main {
         padding-top: 30px;
         padding-bottom: 30px;
         color: #808080;
-
     }
-
-
 
     .ideas-list article img {
         width: 15px;
         height: 15px;
-
     }
-
-
 
     .ideas-list p.date {
         font-weight: 400;
         font-size: 12px;
     }
-
-    /* Notification */
-
-    .notification {
-        display: flex;
-        position: fixed;
-        bottom: 0px;
-        right: 0px;
-
-    }
-
-    .bottom {
-        display: flex;
-        justify-content: space-evenly;
-        height: 50px;
-        width: 180px;
-        margin: 1px;
-        text-align: center;
-        padding: 16px;
-        color: #3187C6;
-        font-size: 14px;
-        font-weight: 700;
-        background-color: #FFFFFF;
-        border: none;
-
-    }
-
-    .bottom img {
-        width: 18px;
-        height: 18px;
-        padding-top: 8px;
-
-    }
-
-    .bottom a {
-        text-decoration: none;
-        padding-top: 5px;
-    }
-
-    #circle {
-        height: 30px;
-        width: 30px;
-        color: #F1F1F2;
-        padding-top: 5px;
-        font-size: 16px;
-        border-radius: 50px;
-        background-color: #3187C6;
-
-    }
-
-
-
-
 }
+
 
 
 /*Tablet*/
@@ -548,7 +446,6 @@ main {
         height: 250px;
     }
 
-
     .logo {
         padding-top: 40px;
         font-size: 20px;
@@ -556,11 +453,7 @@ main {
 
     .logo span {
         font-size: 16px;
-
     }
-
-
-
 
     .green {
         height: 0.85em;
@@ -568,29 +461,24 @@ main {
         border-radius: 50%;
         margin-left: 5.6em;
         margin-top: -1em;
-
     }
 
+
     /* MY IDEAS */
-
-
 
     .copyright {
         margin-left: 20px;
         color: #a5a5a5;
         font-size: 12px;
-
     }
 
 
 
     .idea {
-
         margin: 20px;
         margin-top: 5%;
         padding-bottom: 50px;
     }
-
 
     .ideas-list {
         display: block;
@@ -608,7 +496,6 @@ main {
         padding-top: 30px;
         padding-bottom: 30px;
         color: #808080;
-
     }
 
     .ideas-list article div {
@@ -622,62 +509,12 @@ main {
     .ideas-list article img {
         width: 20px;
         height: 15px;
-
     }
 
 
     .ideas-list p.date {
         font-weight: 400;
         font-size: 12px;
-    }
-
-    /* Notification */
-
-    .notification {
-        display: flex;
-        position: fixed;
-        bottom: 0px;
-        right: 0px;
-
-    }
-
-    .bottom {
-        display: flex;
-        justify-content: space-evenly;
-        height: 50px;
-        width: 180px;
-        margin: 1px;
-        text-align: center;
-        padding: 16px;
-        color: #3187C6;
-        font-size: 14px;
-        font-weight: 700;
-        background-color: #FFFFFF;
-        border: none;
-
-    }
-
-    .bottom img {
-        width: 18px;
-        height: 18px;
-        padding-top: 8px;
-
-    }
-
-    .bottom a {
-        text-decoration: none;
-        padding-top: 5px;
-    }
-
-    #circle {
-        height: 30px;
-        width: 30px;
-        color: #F1F1F2;
-        padding-top: 5px;
-        font-size: 16px;
-        border-radius: 50px;
-        background-color: #3187C6;
-
     }
 
 }
